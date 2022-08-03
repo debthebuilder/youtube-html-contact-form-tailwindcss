@@ -1,0 +1,10 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.bgImg {
+    width: 100%;
+    background: url(/assets/bg2.png) no-repeat;
+    background-position: right bottom;
+    backgroun-image: linear-gradient()
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>HTML Contact Form</title>
+</head>
+<body>
+    <div class="w-full h-screen flex">
+        <!--Background Image with Overlay text-->
+        <div class="w-4/6 bg-gray-600 text-white flex flex-col justify-between py-5 px-10">
+            <a href="#" class="block">
+                <div class="w-20 h-20 bg-gray-50 rounded-full"></div>
+            </a>
+            <q>We've been using Untitled to kick start every new project and can't imagine working without it.</q>
+            <div class="flex flex-row items-center justify-between">
+                <div>
+                    <h3>Olivia Rhye</h3>
+                    <div>Lead Designer, Layers</div>
+                    <span>Web Development Agency</span>
+                </div>
+                <div>
+                    <span>
+                        <i class="fa-solid fa-arrow-left"></i>
+                    </span>
+                    <span>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!--Form-->
+        <div class="w-2/6 px-10">
+            <h2>Create an account</h2>
+            <span>Let's get started with your 30 day free trial.</span>
+            <form>
+                <input type="text" name="name" placeholder="Name" class="w-full border-b border-gray-400 pb-2 focus:outline-none focus:border-0 focus:border-b-2 my-2">
+                <input type="email" name="email" placeholder="Email" class="w-full border-b border-gray-400 pb-2 focus:outline-none focus:border-0 focus:border-b-2 my-2">
+                <input type="password" name="password" placeholder="Password" class="w-full border-b border-gray-400 pb-2 focus:outline-none focus:border-0 focus:border-b-2 my-2">
+                <button class="block bg-gray-600 w-full py-2 rounded">create account</button>
+                <button><span><i class="fa-brands fa-google"></i></span>sign up with Google</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
